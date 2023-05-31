@@ -48,7 +48,69 @@
             .footer ul li:hover {
                 color: #e65b00;
             }
-            
+ .sidebar-social {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(255, 255, 255);
+}
+
+.sidebar-social ul a {
+    text-decoration: none;
+}
+
+.sidebar-social li {
+    list-style: none;
+    color: #fff;
+    width: 60px;
+    display: flex;
+    overflow: hidden;
+    padding: 17px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 1.5rem;
+}
+
+.sidebar-social li:hover {
+    width: 180px;
+}
+
+.sidebar-social li i {
+    margin-right: 22px;
+}
+
+.insta {
+    background-color: #df2f6d;
+}
+
+.yt {
+    background-color: #fe0000;
+}
+
+.fb {
+    background-color: #0386ee;
+}
+
+.twitter {
+    background-color: #1d9bf0;
+}
+
+.sidebar-social .insta:hover {
+    background-color: #df2f6d;
+}
+
+.sidebar-social .yt:hover {
+    background-color: #fe0000;
+}
+
+.sidebar-social .fb:hover {
+    background-color: #0386ee;
+}
+
+.sidebar-social .twitter:hover {
+    background-color: #1d9bf0;
+}
+
             
         </style>
         <script>
@@ -465,6 +527,22 @@
                     <li>Hotel in Ooty</li>
                     <li>Hotel in Shimla</li>
                 </ul>
+                 <h2 class="sidebar-social">
+        <ul>
+            <a href="#">
+                <li class="insta"><i class="bi bi-instagram"></i> Instagram</li>
+            </a>
+            <a href="#">
+                <li class="fb"><i class="bi bi-facebook"></i> Facebook </li>
+            </a>
+            <a href="#">
+                <li class="yt"><i class="bi bi-youtube"></i> YouTube </li>
+            </a>
+            <a href="#">
+                <li class="twitter"><i class="bi bi-twitter"></i> Twitter </li>
+            </a>  
+        </ul>
+    </h2>
             </div>
             <div class="footer-item">
                 <h2 class="footer-heading">Alternate Accomodation in City</h2>
